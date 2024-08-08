@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet id="750284a8-b863-4935-962f-696688cf9c88" author="bhuvana">
+        <renameColumn tableName="school" oldColumnName="name" newColumnName="school_name" columnDataType="varchar(255)"/>
+    </changeSet>
+</databaseChangeLog>
